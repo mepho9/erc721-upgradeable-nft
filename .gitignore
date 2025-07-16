@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Compiled contracts & build artifacts
+artifacts/
+cache/
+
+# Typechain (if using TypeScript or ABI typing)
+typechain/
+typechain-types/
+
+# Coverage output
+coverage/
+coverage.json
+lcov-report/
+
+# Hardhat deployments (Ignition)
+ignition/deployments/
+
+# Optional OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional but common)
+.vscode/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS ._ files
+._*
+
+# Remix IDE backup files
+*.swp
+
+# Optional: test coverage from nyc
+.nyc_output/
